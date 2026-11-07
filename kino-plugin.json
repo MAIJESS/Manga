@@ -1,0 +1,571 @@
+{
+  "id": "theme-manga",
+  "name": "Manga",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Temas estilo manga para toda la app: tinta, papel, shōnen y sakura, con logo propio y paneles con borde.",
+  "author": "Tu nombre",
+  "hosts": [],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Manga",
+    "labelEn": "Manga",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver temas",
+      "labelEn": "See themes"
+    }
+  },
+  "categories": [
+    "themes",
+    "anime"
+  ],
+  "color": "#E63946",
+  "appThemes": [
+    {
+      "id": "manga-ink",
+      "name": {
+        "es": "Manga · Tinta",
+        "en": "Manga · Ink"
+      },
+      "colors": {
+        "accent": "#E63946",
+        "onAccent": "#0B0B0C",
+        "background": "#0B0B0C",
+        "surface": "#161618",
+        "surfaceHigh": "#232327",
+        "railPanel": "#0F0F11",
+        "textPrimary": "#F4F1EA",
+        "textSecondary": "#B9B4AA",
+        "focus": "#F4F1EA",
+        "onFocus": "#0B0B0C",
+        "outline": "#3A3A40",
+        "border": "#F4F1EA",
+        "placeholderTop": "#1E1E21",
+        "placeholderBottom": "#121214",
+        "favorite": "#E63946",
+        "success": "#4CC38A",
+        "warning": "#FFC53D",
+        "error": "#FF5A5F",
+        "scrim": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B0B0C",
+          "#170A0D"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 2,
+        "channelRadius": 2,
+        "buttonRadius": 2,
+        "chipRadius": 2,
+        "dialogRadius": 2,
+        "inputRadius": 2,
+        "dialogBorder": 3,
+        "menuBorder": 2,
+        "headerBorder": 2,
+        "cardBorder": 2,
+        "panelBorder": 2
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0,
+        "dialogShadow": 0,
+        "heroScrim": 0.85
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 120,
+        "heroDrift": "off"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "square"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0,
+          "titleScale": 1.05
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#E63946",
+            "#FFD23F",
+            "#2EC4F1",
+            "#FF7EB6"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 16
+        },
+        "shape.cardBorder": {
+          "min": 0,
+          "max": 4
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "respect",
+      "experience": "light",
+      "logo": {
+        "wordmark": {
+          "size": [
+            144,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M0 12 H15 V14.6 H0 Z M5 19.4 H15 V22 H5 Z M0 26.8 H15 V29.4 H0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M25.6 4 L33.3 4 L31.1 16 L46.2 4 L56.5 4 L38.3 19.5 L51.8 35 L41.5 35 L29.9 22.9 L27.7 35 L20 35 Z M62.4 4 L71 4 L65.4 35 L56.8 35 Z M70.4 35 L76 4 L84.6 4 L94.9 22.9 L98.4 4 L107 4 L101.4 35 L92.8 35 L82.4 16 L79 35 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M108.2 22 A15.5 15.5 0 1 0 139.2 22 A15.5 15.5 0 1 0 108.2 22 Z M116.5 22 A7.2 7.2 0 1 1 130.9 22 A7.2 7.2 0 1 1 116.5 22 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M140.2 0 L141.7 4 L145.7 5.5 L141.7 7 L140.2 11 L138.6 7 L134.7 5.5 L138.6 4 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            40,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M1 20 A19 19 0 1 0 39 20 A19 19 0 1 0 1 20 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M13.4 11.9 L17.5 11.9 L16.6 18.2 L24.2 11.9 L29.6 11.9 L20.4 20 L27.8 28.1 L22.4 28.1 L16.1 21.8 L15.2 28.1 L11.2 28.1 Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "manga-papel",
+      "name": {
+        "es": "Manga · Papel",
+        "en": "Manga · Paper"
+      },
+      "colors": {
+        "accent": "#C8102E",
+        "onAccent": "#FFFFFF",
+        "background": "#F4F1EA",
+        "surface": "#FFFFFF",
+        "surfaceHigh": "#E6E1D4",
+        "railPanel": "#EAE5D9",
+        "textPrimary": "#111111",
+        "textSecondary": "#4A4740",
+        "focus": "#111111",
+        "onFocus": "#F4F1EA",
+        "outline": "#BDB6A6",
+        "border": "#111111",
+        "placeholderTop": "#DDD7C8",
+        "placeholderBottom": "#CFC8B6",
+        "favorite": "#C8102E",
+        "success": "#1F7A4D",
+        "warning": "#B26A00",
+        "error": "#B3261E",
+        "scrim": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#F4F1EA",
+          "#E9E4D8"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 0,
+        "channelRadius": 0,
+        "buttonRadius": 0,
+        "chipRadius": 0,
+        "dialogRadius": 0,
+        "inputRadius": 0,
+        "dialogBorder": 3,
+        "menuBorder": 2,
+        "headerBorder": 3,
+        "cardBorder": 2,
+        "panelBorder": 2
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0,
+        "dialogShadow": 0,
+        "heroScrim": 0.9
+      },
+      "motion": {
+        "focusZoom": 1.04,
+        "crossfadeMs": 100,
+        "heroDrift": "off"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "square"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0,
+          "titleScale": 1.05
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#C8102E",
+            "#1D4ED8",
+            "#7A1FA2",
+            "#00796B"
+          ]
+        },
+        "shape.cardBorder": {
+          "min": 0,
+          "max": 4
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      },
+      "pluginColors": "respect",
+      "experience": "light",
+      "logo": {
+        "wordmark": {
+          "size": [
+            153,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M5.7 4 L13.5 4 L12 16 L26.4 4 L36.7 4 L19.3 19.5 L33.8 35 L23.5 35 L11.2 22.9 L9.7 35 L2 35 Z M42.5 4 L51.1 4 L47.4 35 L38.8 35 Z M52.4 35 L56.1 4 L64.7 4 L76.2 22.9 L78.5 4 L87.1 4 L83.4 35 L74.8 35 L63.3 16 L61 35 Z M89.2 22 A15.5 15.5 0 1 0 120.2 22 A15.5 15.5 0 1 0 89.2 22 Z M97.5 22 A7.2 7.2 0 1 1 111.9 22 A7.2 7.2 0 1 1 97.5 22 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M129.2 7 H151.2 V29 H129.2 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M136.2 12 L146.2 18 L136.2 24 Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M2 36 H151.2 V38 H2 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            40,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M1 20 A19 19 0 1 0 39 20 A19 19 0 1 0 1 20 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M13.4 11.9 L17.5 11.9 L16.6 18.2 L24.2 11.9 L29.6 11.9 L20.4 20 L27.8 28.1 L22.4 28.1 L16.1 21.8 L15.2 28.1 L11.2 28.1 Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "manga-shonen",
+      "name": {
+        "es": "Manga · Shōnen",
+        "en": "Manga · Shonen"
+      },
+      "colors": {
+        "accent": "#FF9F1C",
+        "onAccent": "#101010",
+        "background": "#0A0F1E",
+        "surface": "#121A33",
+        "surfaceHigh": "#1C2748",
+        "railPanel": "#0D1428",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#BAC3DD",
+        "focus": "#FFD23F",
+        "onFocus": "#0A0F1E",
+        "outline": "#2F3C66",
+        "border": "#FFD23F",
+        "placeholderTop": "#1A2342",
+        "placeholderBottom": "#0E1530",
+        "favorite": "#FF5A5F",
+        "success": "#3DDC97",
+        "warning": "#FFD23F",
+        "error": "#FF5A5F",
+        "scrim": "#050814"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0F1E",
+          "#101B3A"
+        ],
+        "angle": 165
+      },
+      "shape": {
+        "cardRadius": 4,
+        "channelRadius": 4,
+        "buttonRadius": 4,
+        "chipRadius": 4,
+        "dialogRadius": 4,
+        "inputRadius": 4,
+        "dialogBorder": 3,
+        "menuBorder": 2,
+        "headerBorder": 2,
+        "cardBorder": 3,
+        "panelBorder": 2
+      },
+      "typography": {
+        "scale": 1.08,
+        "titleScale": 1.15,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.4,
+        "dialogShadow": 0.6,
+        "heroScrim": 0.8
+      },
+      "motion": {
+        "focusZoom": 1.1,
+        "crossfadeMs": 150,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.1,
+        "playButtonScale": 1.3,
+        "seekBarScale": 1.3,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0,
+          "titleScale": 1.05
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FF9F1C",
+            "#E63946",
+            "#2EC4F1",
+            "#7CFF6B"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 16
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "respect",
+      "experience": "full",
+      "logo": {
+        "wordmark": {
+          "size": [
+            144,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M2 36.5 L124 36.5 L128 40 L0 40 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15.3 4 L23 4 L19.4 16 L35.9 4 L46.2 4 L26.1 19.5 L37.8 35 L27.5 35 L17.4 22.9 L13.7 35 L6 35 Z M52.1 4 L60.7 4 L51.4 35 L42.8 35 Z M56.4 35 L65.7 4 L74.3 4 L82.4 22.9 L88.1 4 L96.7 4 L87.4 35 L78.8 35 L70.7 16 L65 35 Z M96 22 A15.5 15.5 0 1 0 127 22 A15.5 15.5 0 1 0 96 22 Z M105 22 A6.5 6.5 0 1 1 118 22 A6.5 6.5 0 1 1 105 22 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M111.5 17.4 L112.9 20.6 L116.1 22 L112.9 23.4 L111.5 26.6 L110.1 23.4 L106.9 22 L110.1 20.6 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M138 2 L139.7 6.3 L144 8 L139.7 9.7 L138 14 L136.3 9.7 L132 8 L136.3 6.3 Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            40,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M1 20 A19 19 0 1 0 39 20 A19 19 0 1 0 1 20 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M14.2 11.9 L18.2 11.9 L17 18.2 L25 11.9 L30.4 11.9 L20.7 20 L27.6 28.1 L22.2 28.1 L16.3 21.8 L15 28.1 L11 28.1 Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "manga-sakura",
+      "name": {
+        "es": "Manga · Sakura",
+        "en": "Manga · Sakura"
+      },
+      "colors": {
+        "accent": "#FF7EB6",
+        "onAccent": "#1A0B16",
+        "background": "#120A1A",
+        "surface": "#1D1226",
+        "surfaceHigh": "#2B1B38",
+        "railPanel": "#170E20",
+        "textPrimary": "#FFF3F8",
+        "textSecondary": "#D2B8CC",
+        "focus": "#FFD6E8",
+        "onFocus": "#1A0B16",
+        "outline": "#4A3060",
+        "border": "#FF7EB6",
+        "placeholderTop": "#261733",
+        "placeholderBottom": "#150D1F",
+        "favorite": "#FF7EB6",
+        "success": "#6EE7B7",
+        "warning": "#FFD166",
+        "error": "#FF6B81",
+        "scrim": "#0A0510"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#120A1A",
+          "#2A1030"
+        ],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 20,
+        "chipRadius": 20,
+        "dialogRadius": 18,
+        "inputRadius": 12,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.5,
+        "dialogShadow": 0.6,
+        "heroScrim": 0.75
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 260,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.1,
+        "labelScale": 1.0,
+        "buttonShape": "circle"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0,
+          "titleScale": 1.05
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FF7EB6",
+            "#C77DFF",
+            "#80D8FF",
+            "#FFD166"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        },
+        "background": true
+      },
+      "pluginColors": "respect",
+      "experience": "full",
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M0 0 C-40 -34 -64 -84 -22 -114 L0 -96 L22 -114 C64 -84 40 -34 0 0 Z M0 0 C20 -48.5 60.1 -86.8 101.6 -56.2 L91.3 -29.7 L115.2 -14.3 C99.7 34.9 44.7 27.5 0 0 Z M0 0 C52.3 4 101.2 30.3 84.8 79.3 L56.4 77.7 L49.2 105.2 C-2.4 105.6 -12.4 51 0 0 Z M0 0 C12.4 51 2.4 105.6 -49.2 105.2 L-56.4 77.7 L-84.8 79.3 C-101.2 30.3 -52.3 4 0 0 Z M0 0 C-44.7 27.5 -99.7 34.9 -115.2 -14.3 L-91.3 -29.7 L-101.6 -56.2 C-60.1 -86.8 -20 -48.5 0 0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M-17 0 A17 17 0 1 0 17 0 A17 17 0 1 0 -17 0 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M-8 0 A8 8 0 1 0 8 0 A8 8 0 1 0 -8 0 Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
